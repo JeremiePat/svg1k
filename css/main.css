@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Open+Sans+Condensed:wght@700&display=swap');
+
+* { box-sizing: border-box; }
+
+:root {
+  --txt: white;
+  --link: hsl(30deg, 100%, 70%);
+  --bg: #212325;
+  --border: #000;
+
+  --octocat: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="white" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" /></svg>')
+}
+
+html, body {
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+iframe {
+  border: none;
+  flex: 1;
+}
+
+header {
+  font: .85rem/1.5rem "Open Sans", sans-serif;
+
+  color: var(--txt);
+  background-color: var(--bg);
+
+  padding: 1rem;
+  border-bottom: 1px solid var(--border);
+
+  display: flex;
+}
+
+footer {
+  font: .75rem/1.5rem "Open Sans", sans-serif;
+  text-align: center;
+
+  color: var(--txt);
+  background-color: var(--bg);
+
+  padding: .5rem 1rem;
+  border-top: 1px solid var(--border);
+}
+
+h1 {
+  font: bold 1rem/1.5rem "Open Sans Condensed", sans-serif;
+  white-space: nowrap;
+  margin: 0;
+}
+
+nav {
+  flex: 1;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0 1.5rem;
+}
+
+nav.noprev .prev,
+nav.nonext .next,
+nav.norand .rand,
+nav.noprev.norand.nonext { display: none; }
+nav.noprev.norand.nonext ~ a.github { flex: 1; }
+
+a,
+nav a:hover,
+nav a:focus,
+nav a:active {
+  color: var(--txt);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active,
+nav a:hover span,
+nav a:focus span,
+nav a:active span {
+  color: var(--link);
+  text-decoration: underline;
+}
+
+a.prev::before { content: '« '; }
+a.next::after  { content: ' »'; }
+
+nav:not(.noprev) a.rand::before { content: ' | '; }
+nav:not(.nonext) a.rand::after  { content: ' | '; }
+
+a.github {
+  padding: 0 2rem 0 0;
+  background-image: var(--octocat);
+  background-size: 1.5rem;
+  background-position: top right;
+  background-repeat: no-repeat;
+
+  font-size: .75rem;
+  text-align: right;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 50rem) {
+  a.github {
+    color: transparent;
+    width: 1.5rem;
+    padding: 0;
+  }
+}
+
+@media (max-width: 31rem) {
+  header { flex-wrap: wrap; }
+  h1 { flex: 1; }
+  nav { order: 1; margin-top: .5rem; }
+}
