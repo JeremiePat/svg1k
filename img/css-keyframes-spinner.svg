@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="-75 -75 150 150">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-75 -75 150 150">
 <style>
 @keyframes pulse{40%,60%{opacity:.5}}
 @keyframes spin{
