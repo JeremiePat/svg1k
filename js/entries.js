@@ -5,4 +5,5 @@ export default [
   // either a point of contact or a link to a detail explanation of the demo.
   { file: 'clouds.svg', author: "Jérémie Patonnier", link: "https://twitter.com/JeremiePat/" },
   { file: 'svg1k.svg', author: "Jérémie Patonnier", link: "https://twitter.com/JeremiePat/" },
+  { file: 'css-keyframes-spinner.svg', author: "Amelia Bellamy-Royds", link: "https://codepen.io/AmeliaBR/" },
 ]

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-75 -75 150 150">
+<style>
+@keyframes pulse{40%,60%{opacity:.5}}
+@keyframes spin{
+0%,10%{transform:rotate(0deg) translate(5px,0) rotate(0deg)}
+30%,40%{transform:rotate(0deg) translate(30px,0) rotate(0deg)}
+60%,70%{transform:rotate(60deg) translate(30px,0) rotate(0deg)}
+90%,100%{transform:rotate(60deg) translate(30px,0) rotate(180deg)}
+}
+@keyframes step-rotate{
+3%,33%{transform:rotate(120deg)}
+37%,67%{transform:rotate(240deg)}
+70%,100%{transform:rotate(360deg)}
+}
+use{animation:pulse 1s infinite linear,spin 5s infinite alternate}
+.loader{animation:step-rotate 15s infinite}
+</style>
+<defs><g id="o">
+<path fill="currentColor" d="M0 0h30v30H0z"/>
+<circle cx="15" cy="15" r="20" fill="none" stroke="currentColor" stroke-width="4"/>
+</g></defs>
+<g class="loader">
+<g color="tomato"><use href="#o"/></g>
+<g transform="rotate(120)" color="#4169e1"><use href="#o"/></g>
+<g transform="rotate(240)" color="#3cb371"><use href="#o"/></g>
+</g>
+</svg>
