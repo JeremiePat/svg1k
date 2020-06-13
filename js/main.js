@@ -1,5 +1,6 @@
 import entries from './entries.js'
 import random from './lib/random.js'
+import indexFromQuery from './lib/query.js'
 import updateAuthorUI from './lib/author.js'
 import updateNavigationUI from './lib/navigation.js'
 
@@ -14,17 +15,19 @@ document.addEventListener('click', (e) => {
     setTimeout(() => {
       updateNavigationUI(index, entries)
       updateAuthorUI(author, link)
+      location.hash = file
     }, 0)
   }
 })
 
 document.addEventListener('DOMContentLoaded', () => {
-  const lastEntryIndex = entries.length - 1
+  const lastEntryIndex = indexFromQuery(entries)
   const { file, author, link } = entries[lastEntryIndex]
 
   document.querySelector('iframe').src = `img/${file}`
   updateNavigationUI(lastEntryIndex, entries)
   updateAuthorUI(author, link)
+  location.hash = file
 })
 
 document.addEventListener('mouseover', (e) => {
