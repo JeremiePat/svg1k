@@ -5,8 +5,6 @@ function updateNavigationUI (currentIndex, entries) {
   const next = Math.min(currentIndex + 1, entries.length - 1)
   const rand = random.number(0, entries.length - 1, currentIndex, prev, next)
 
-  console.log(currentIndex, prev, rand, next)
-
   const nav = document.querySelector('nav')
   nav.classList.toggle('noprev', prev === currentIndex)
   nav.classList.toggle('nonext', next === currentIndex)

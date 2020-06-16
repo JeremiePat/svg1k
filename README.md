@@ -19,7 +19,7 @@ Contribution is super easy if you follow this steps:
 
 3. Wait for review and brag when it's merged.
 
-> ** NOTE:** _Be aware that all contributions are made under the terms of [the CC0 1.0 Public Domain license](https://creativecommons.org/publicdomain/zero/1.0/)_
+> **NOTE:** _Be aware that all contributions are made under the terms of [the CC0 1.0 Public Domain license](https://creativecommons.org/publicdomain/zero/1.0/)_
 
 
 ## FAQ
@@ -34,4 +34,4 @@ Currently we want to get stick to 1Ko, however we are considering to change that
 
 ### Can I submit a compressed SVG file (with the extension `.svgz`)?
 
-No, in this context, compression provides no value. One of the intent of the SVG1K project is to be used by web developers as a pedagogic resource to learn new technics with SVG (either by learning from the demos or by submitting PRs that will be reviewed thoroughly). Because compression is a form of obfuscation it goes against that pedagogic intent.
+No, in this context, compression provides no value. One of the intent of the SVG1K project is to be used by web developers as a pedagogic resource to learn new technics with SVG (either by learning from the demos or by submitting PRs that will be reviewed thoroughly). Because compression is a form of hard obfuscation it goes against that pedagogic intent.
