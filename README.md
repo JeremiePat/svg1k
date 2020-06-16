@@ -24,6 +24,10 @@ Contribution is super easy if you follow this steps:
 
 ## FAQ
 
+### I don't understand Git, can I contribute without making a PR?
+
+Of course, making a GitHub PR is the easiest and fastest way for us to review and provide feedback, but it isn't a hard requirement. Feel free to create your kick ass SVG demo anywhere you want (for example, [codepen.io](https://codepen.io/), [dabblet](https://dabblet.com/), [jsfiddle](https://jsfiddle.net/), etc.), then if you have no one around you that could handle the PR for you, feel free to ping @JeremiePat (either by opening an issue, on twitter, or by e-mail)  to get your submission included.
+
 ### Can I submit any crapy SVG like a simple circle?
 
 We do not have any formal acceptance criteria, but we expect you to push forward the limit of the technology. As a consequence we cannot guaranty that your contribution will be accepted if we subjectively judge it's not impressive enough. That said we will do our best to provide constructive feedback on your PR to improve your submission in a way it can be accepted.
