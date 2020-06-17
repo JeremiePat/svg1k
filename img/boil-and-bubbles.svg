@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+    <style>
+        path,#s{stroke-width:12px;stroke-linecap:round}
+        #s{transform-origin:75px 105px;transform:rotate(15deg);animation:s 2.5s infinite}
+        circle{fill:none;stroke:teal;offset-path:var(--p);animation:b 3s infinite linear var(--d)}
+        @keyframes s{0%{transform:rotate(15deg)} 50%{transform:rotate(-15deg)}}
+        @keyframes b{100%{offset-distance:100%;opacity:0}}
+    </style>
+    <circle r="2" style="--d:.8s;--p:path('m78 62 q 7 -15, 0 -30 t 0 -30')"/>
+    <circle r="4" style="--d:2.4s;--p:path('m67 80 q -8 -15, 0 -30 t 0 -30')"/>
+    <path id="s" d="M75,105 75,20" stroke="#b53"/>
+    <circle r="2" style="--d:2.3s;--p:path('m71 58 q -9 -15, 0 -30 t 0 -30')"/>
+    <circle r="1" style="--d:1.6s;--p:path('m62 67 q 8 -15, 0 -30 t 0 -30')"/>
+    <circle r="3" style="--d:0s;--p:path('m90 78 q 6 -15, 0 -30 t 0 -30')"/>
+    <path d="M40,60 110,60 M75,61 a1,1,0,00,0,88 1,1,0,00,0,-88" stroke="#000"/>
+</svg>
