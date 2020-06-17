@@ -19,10 +19,14 @@ Contribution is super easy if you follow this steps:
 
 3. Wait for review and brag when it's merged.
 
-> ** NOTE:** _Be aware that all contributions are made under the terms of [the CC0 1.0 Public Domain license](https://creativecommons.org/publicdomain/zero/1.0/)_
+> **NOTE:** _Be aware that all contributions are made under the terms of [the CC0 1.0 Public Domain license](https://creativecommons.org/publicdomain/zero/1.0/)_
 
 
 ## FAQ
+
+### I don't understand Git, can I contribute without making a PR?
+
+Of course, making a GitHub PR is the easiest and fastest way for us to review and provide feedback, but it isn't a hard requirement. Feel free to create your kick ass SVG demo anywhere you want (for example, [codepen.io](https://codepen.io/), [dabblet](https://dabblet.com/), [jsfiddle](https://jsfiddle.net/), etc.), then if you have no one around you that could handle the PR for you, feel free to ping @JeremiePat (either by opening an issue, on twitter, or by e-mail)  to get your submission included.
 
 ### Can I submit any crapy SVG like a simple circle?
 
@@ -34,4 +38,4 @@ Currently we want to get stick to 1Ko, however we are considering to change that
 
 ### Can I submit a compressed SVG file (with the extension `.svgz`)?
 
-No, in this context, compression provides no value. One of the intent of the SVG1K project is to be used by web developers as a pedagogic resource to learn new technics with SVG (either by learning from the demos or by submitting PRs that will be reviewed thoroughly). Because compression is a form of obfuscation it goes against that pedagogic intent.
+No, in this context, compression provides no value. One of the intent of the SVG1K project is to be used by web developers as a pedagogic resource to learn new technics with SVG (either by learning from the demos or by submitting PRs that will be reviewed thoroughly). Because compression is a form of hard obfuscation it goes against that pedagogic intent.
