@@ -7,9 +7,9 @@
         @keyframes b{100%{offset-distance:100%;opacity:0}}
     </style>
     <circle r="2" style="--d:.8s;--p:path('m78 62 q 7 -15, 0 -30 t 0 -30')"/>
-    <circle r="4" style="--d:2.4s;--p:path('m67 80 q 5 -15, 0 -30 t 0 -30')"/>
+    <circle r="4" style="--d:2.4s;--p:path('m67 80 q -8 -15, 0 -30 t 0 -30')"/>
     <path id="s" d="M75,105 75,20" stroke="#b53"/>
-    <circle r="2" style="--d:2.3s;--p:path('m71 58 q 9 -15, 0 -30 t 0 -30')"/>
+    <circle r="2" style="--d:2.3s;--p:path('m71 58 q -9 -15, 0 -30 t 0 -30')"/>
     <circle r="1" style="--d:1.6s;--p:path('m62 67 q 8 -15, 0 -30 t 0 -30')"/>
     <circle r="3" style="--d:0s;--p:path('m90 78 q 6 -15, 0 -30 t 0 -30')"/>
     <path d="M40,60 110,60 M75,61 a1,1,0,00,0,88 1,1,0,00,0,-88" stroke="#000"/>
