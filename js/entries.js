@@ -8,4 +8,5 @@ export default [
   { file: 'css-keyframes-spinner.svg', author: "Amelia Bellamy-Royds", link: "https://codepen.io/AmeliaBR/" },
   { file: 'loading-squares.svg', author: "Thomas Sauques", link: "https://github.com/Morphyish" },
   { file: 'boil-and-bubbles.svg', author: "Thomas Sauques", link: "https://github.com/Morphyish" },
+  { file: 'animated-letter.svg', author: "Romain Vernoux", link: "https://github.com/RomainVernoux" },
 ]
