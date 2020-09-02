@@ -9,4 +9,5 @@ export default [
   { file: 'loading-squares.svg', author: "Thomas Sauques", link: "https://github.com/Morphyish" },
   { file: 'boil-and-bubbles.svg', author: "Thomas Sauques", link: "https://github.com/Morphyish" },
   { file: 'pixel-gradient.svg', author: "Jérémie Patonnier", link: "https://twitter.com/JeremiePat/" },
+  { file: 'breath.svg', author: "Michael Gehrmann", link: "https://github.com/g12n" },
 ]
